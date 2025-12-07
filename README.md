@@ -60,6 +60,6 @@ KELAS   : TI.25 C.5
 
 <br><br>
 <img src="https://github.com/aramli/labpy07/raw/main/img/13.png" width="850"/><br>
-  9. Lalu, Pada bagian akhir, terdapat blok if __name__ == "__main__": yang memastikan program hanya dijalankan ketika file tersebut dieksekusi secara langsung. Di dalam blok ini, dibuat objek dari kelas DataMahasiswa dan dipanggil method main untuk memulai menu interaktif. Dengan struktur ini, program menjadi modular, terorganisir, dan mudah dikembangkan lebih lanjut.
+  9. Lalu, Pada bagian akhir, terdapat blok if __name__ == "__main__": yang memastikan program hanya dijalankan ketika file tersebut dieksekusi secara langsung. Di dalam blok ini, dibuat objek dari kelas DataMahasiswa dan dipanggil method main untuk memulai program.
 <br><br>
 </ul>
