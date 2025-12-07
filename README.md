@@ -21,11 +21,11 @@ KELAS   : TI.25 C.5
     3. Mengubah Data Mahasiswa <br>
   <img src="https://github.com/aramli/labpy07/raw/main/img/16.png" width="750"/><br>
     4. Menghapus Data Mahasiswa <br>
-  <img src="https://github.com/aramli/labpy07/raw/main/img/17.png" width="750"/><br>
-    5. Mencari Data Mahasiswa<br>
   <img src="https://github.com/aramli/labpy07/raw/main/img/18.png" width="750"/><br>
+    5. Mencari Data Mahasiswa<br>
+  <img src="https://github.com/aramli/Labpy07/raw/main/img/17.png" width="750"/><br>
     6. Keluar Dari Program<br>
-  <img src="https://github.com/aramli/labpy07/raw/main/img/19.png" width="750"/><br>
+  <img src="https://github.com/aramli/Labpy07/raw/main/img/19.png" width="750"/><br>
   
   <li>Penjelasan Kode</li>
   <img src="https://github.com/aramli/labpy07/raw/main/img/4.png" width="850"/><br>
@@ -47,19 +47,19 @@ KELAS   : TI.25 C.5
   5. Selanjutnya, Method ubah_data memungkinkan pengguna memperbarui data mahasiswa yang sudah ada. Program akan meminta NIM mahasiswa yang ingin diubah. Jika NIM ditemukan dalam dictionary, maka pengguna diminta memasukkan data baru berupa nama, nilai tugas, UTS, dan UAS. Data lama akan diganti dengan objek Mahasiswa baru yang berisi data terbaru. Jika NIM tidak ditemukan, program akan menampilkan pesan error agar pengguna memeriksa kembali NIM yang dimasukkan.
 <br><br>
 
-  <img src="https://github.com/aramli/labpy07/raw/main/img/9.png" width="850"/><br>
+  <img src="https://github.com/aramli/labpy07/raw/main/img/10.png" width="850"/><br>
   6. Berikutnya, Method hapus_data berfungsi untuk menghapus data mahasiswa dari dictionary. Program akan meminta input NIM, lalu memeriksa apakah NIM tersebut ada dalam dictionary. Jika ada, data mahasiswa akan dihapus menggunakan perintah del. Jika tidak ditemukan, program akan menampilkan pesan bahwa data tidak ada. Dengan cara ini, pengguna dapat menghapus data mahasiswa yang tidak diperlukan lagi.
 
 <br><br>
-  <img src="https://github.com/aramli/labpy07/raw/main/img/10.png" width="850"/><br>
+  <img src="https://github.com/aramli/labpy07/raw/main/img/11.png" width="850"/><br>
   7. Kemudian, Method cari_data digunakan untuk mencari data mahasiswa berdasarkan NIM. Program akan meminta input NIM, lalu memeriksa apakah NIM tersebut ada dalam dictionary. Jika ditemukan, data mahasiswa akan ditampilkan dengan memanfaatkan method __str__ dari kelas Mahasiswa, sehingga informasi mahasiswa ditampilkan secara rapi. Jika tidak ditemukan, program akan menampilkan pesan bahwa data tidak ada.
 <br><br>
 
-<img src="https://github.com/aramli/labpy07/raw/main/img/11.png" width="850"/><br>
+<img src="https://github.com/aramli/labpy07/raw/main/img/12.png" width="850"/><br>
   8. Lalu, Method main adalah menu utama program yang berjalan dalam loop. Program akan menampilkan pilihan kepada pengguna, yaitu lihat data, tambah data, ubah data, hapus data, cari data, atau keluar. Setiap pilihan akan memanggil method yang sesuai. Program akan terus berjalan hingga pengguna memilih opsi keluar. Dengan adanya menu ini, pengguna dapat berinteraksi langsung dengan sistem secara sederhana dan terstruktur.
 
 <br><br>
-<img src="https://github.com/aramli/labpy07/raw/main/img/11.png" width="850"/><br>
+<img src="https://github.com/aramli/labpy07/raw/main/img/13.png" width="850"/><br>
   9. Lalu, Pada bagian akhir, terdapat blok if __name__ == "__main__": yang memastikan program hanya dijalankan ketika file tersebut dieksekusi secara langsung. Di dalam blok ini, dibuat objek dari kelas DataMahasiswa dan dipanggil method main untuk memulai menu interaktif. Dengan struktur ini, program menjadi modular, terorganisir, dan mudah dikembangkan lebih lanjut.
 <br><br>
 </ul>
